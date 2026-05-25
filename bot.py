@@ -338,7 +338,8 @@ def instagram_type_inline() -> types.InlineKeyboardMarkup:
     kb = types.InlineKeyboardMarkup(row_width=1)
     kb.add(
         types.InlineKeyboardButton("🔑 Set Admin Rate",                  callback_data="adminrate_instagram"),
-        types.InlineKeyboardButton("Instagram Cookies I'D 🔥 (4.00 Tk)", callback_data="taskinfo_ig_cookies"),
+        types.InlineKeyboardButton("Instagram Cookies I'D 🔥 (3.00 Tk)", callback_data="taskinfo_ig_cookies"),
+        types.InlineKeyboardButton("Instagram 2FA I'D 🔥 (2.50 Tk)", callback_data="taskinfo_ig_2FA"),
     )
     return kb
 
@@ -347,8 +348,8 @@ def facebook_type_inline() -> types.InlineKeyboardMarkup:
     kb = types.InlineKeyboardMarkup(row_width=1)
     kb.add(
         types.InlineKeyboardButton("🔑 Set Admin Rate",                 callback_data="adminrate_facebook"),
-        types.InlineKeyboardButton("PC Clone 6158x I'D 🔥 (5.00 Tk)",  callback_data="taskinfo_fb_clone_6158x"),
-        types.InlineKeyboardButton("PC Clone 1000x I'D 🔥 (15.00 Tk)", callback_data="taskinfo_fb_clone_1000x"),
+        types.InlineKeyboardButton("PC Clone 6158x I'D 🔥 (3.50 Tk)",  callback_data="taskinfo_fb_clone_6158x"),
+        types.InlineKeyboardButton("PC Clone 1000x I'D 🔥 (11.00 Tk)", callback_data="taskinfo_fb_clone_1000x"),
     )
     return kb
 
@@ -357,7 +358,7 @@ def gmail_type_inline() -> types.InlineKeyboardMarkup:
     kb = types.InlineKeyboardMarkup(row_width=1)
     kb.add(
         types.InlineKeyboardButton("🔑 Set Admin Rate",          callback_data="adminrate_gmail"),
-        types.InlineKeyboardButton("Fresh Gmail 🔥 (100.00 Tk)", callback_data="taskinfo_gmail_fresh"),
+        types.InlineKeyboardButton("Fresh Gmail 🔥 (11.00 Tk)", callback_data="taskinfo_gmail_fresh"),
     )
     return kb
 
